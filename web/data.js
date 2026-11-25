@@ -8,9 +8,9 @@ const DATA = {
     { "id": "P6", "nama": "Earphone Bluetooth", "kategori": "Elektronik", "toko": "Audio Plus", "rating": 4.4, "harga_coret": 150000, "harga_akhir": 120000, "diskon_persen": 20, "syarat": "Hanya varian hitam" }
   ],
   "voucher": [
-    { "id": "V1", "nama": "Gratis Ongkir", "minimum_belanja": 25000, "jenis": "ongkir", "potongan": 10000, "syarat": "Berlaku untuk pengiriman reguler" },
-    { "id": "V2", "nama": "Diskon 10%", "minimum_belanja": 50000, "jenis": "persen", "potongan_persen": 10, "maksimum_potongan": 15000, "syarat": "Maksimal potongan Rp15.000" },
-    { "id": "V3", "nama": "Cashback 5%", "minimum_belanja": 100000, "jenis": "cashback", "potongan_persen": 5, "maksimum_potongan": 20000, "syarat": "Cashback masuk setelah pesanan selesai" }
+    { "id": "V1", "nama": "Gratis Ongkir", "kategori": ["Elektronik", "Rumah"], "minimum_belanja": 25000, "jenis": "ongkir", "potongan": 10000, "syarat": "Berlaku untuk pengiriman reguler" },
+    { "id": "V2", "nama": "Diskon 10%", "kategori": ["Elektronik"], "minimum_belanja": 50000, "jenis": "persen", "potongan_persen": 10, "maksimum_potongan": 15000, "syarat": "Maksimal potongan Rp15.000" },
+    { "id": "V3", "nama": "Cashback 5%", "kategori": ["Elektronik", "Rumah"], "minimum_belanja": 100000, "jenis": "cashback", "potongan_persen": 5, "maksimum_potongan": 20000, "syarat": "Cashback masuk setelah pesanan selesai" }
   ],
   "alamat": [
     { "id": "A1", "label": "Rumah", "alamat": "Jl. Contoh No. 1 (dummy)", "pengiriman_default": "Reguler 2 sampai 3 hari", "ongkir": 10000 }
